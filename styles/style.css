@@ -118,7 +118,7 @@ header .navbar a {
 header .navbar a:hover {
   color: var(--red);
 }
-#InsertUser{
+#InsertUser {
   font-size: 1.7rem;
   color: #fff;
   padding: 1rem 0;
@@ -454,7 +454,7 @@ header .navbar a:hover {
 
 .order .row form .btn {
   background: none;
-  color:black;
+  color: black;
 }
 
 .order .row form .btn:hover {
@@ -520,36 +520,50 @@ header .navbar a:hover {
 #rightCLick {
   border: 2px solid whitesmoke;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 5px 15px;
-  backdrop-filter: blur(38px);
-  width: 23.3vw;
-  height: 50vh;
+  /* backdrop-filter: blur(38px); */
+  width: 26vw;
+  background-color: #ffffffe4;
+  height: 38vh;
   text-align: center;
-  border-radius: 50%;
   margin-top: -60rem;
   position: absolute;
   z-index: 1;
   margin-left: 55rem;
   display: none;
+  border-radius: 10px;
+
+  > img {
+    margin-top: -4rem;
+    width: 10rem;
+  }
+  > h1 {
+    /* border: 1px solid red; */
+    line-height: 8rem;
+    font-size: 4rem;
+    color: rgb(67, 67, 67);
+  }
 }
 #rightCLick p {
   letter-spacing: 0.3rem;
-  font-size: 3rem;
+  font-size: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
   /* border: 2px solid red; */
   height: 15vh;
+  margin-top: -4rem;
+  margin-left: 3rem;
 }
-#croshOrder{
-  border-radius: 5rem;
+#croshOrder {
+  width: 2vw;
+  height: 30px;
+  border-radius: 2rem;
   cursor: pointer;
-  margin-left: 16rem;
-  margin-top: 3rem;
-
+  margin-top: 1rem;
+  margin-left: 19rem;
 }
-#croshOrder:hover{
+#croshOrder:hover {
   transform: scale(1.2);
-  
 }
 
 /* media queries  */
@@ -566,7 +580,6 @@ header .navbar a:hover {
   section {
     padding: 2rem;
   }
-
 }
 
 @media (max-width: 768px) {
@@ -599,17 +612,18 @@ header .navbar a:hover {
   }
   #rightCLick {
     border: 2px solid whitesmoke;
-  box-shadow: rgba(0, 0, 0, 0.56) 0px 5px 15px;
-  backdrop-filter: blur(38px);
-    width: 26vw;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 5px 15px;
+    backdrop-filter: blur(38px);
+    width: 35vw;
     height: 34vh;
     text-align: center;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     margin-top: -58rem;
     position: absolute;
     z-index: 1;
     margin-left: 32rem;
     display: none;
+  
   }
   #rightCLick p {
     letter-spacing: 0.3rem;
@@ -618,17 +632,16 @@ header .navbar a:hover {
     justify-content: center;
     align-items: center;
     height: 11vh;
+    margin-top: -2rem;
   }
-  #croshOrder{
+  #croshOrder {
     border-radius: 5rem;
     cursor: pointer;
-    margin-left: 16rem;
-    margin-top: 2rem;
-  
+    margin-left: 15rem;
+    margin-top: 0.5rem;
   }
-  #croshOrder:hover{
+  #croshOrder:hover {
     transform: scale(1.2);
-    
   }
 }
 
@@ -641,39 +654,31 @@ header .navbar a:hover {
     width: 100%;
   }
   #rightCLick {
-     border: 2px solid whitesmoke;
-  box-shadow: rgba(0, 0, 0, 0.56) 0px 5px 15px;
-  backdrop-filter: blur(38px);
-    width: 40vw;
+    border: 2px solid whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 5px 15px;
+    backdrop-filter: blur(38px);
+    width: 60vw;
     height: 30vh;
     text-align: center;
-    border-radius: 50%;
     margin-top: -70rem;
     position: absolute;
     z-index: 1;
-    margin-left: 12rem;
     display: none;
+    margin-left: 10rem;
+    >h1{
+      font-size: 3rem;
+    }
   }
   #rightCLick p {
     letter-spacing: 0.3rem;
     font-size: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 11vh;
+    margin-top: -3rem;
   }
-  #croshOrder{
-    border-radius: 5rem;
+  #croshOrder {
     cursor: pointer;
-    margin-left: 16rem;
-    margin-top: 2rem;
-  
+    margin-top: 0.5rem;
   }
-  #croshOrder:hover{
+  #croshOrder:hover {
     transform: scale(1.2);
-    
   }
 }
-
-
-
