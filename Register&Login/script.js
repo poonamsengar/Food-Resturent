@@ -46,7 +46,6 @@ document.getElementById("loginPink").addEventListener("click", function (e) {
       alert("Congratulation SignIn SuccessFull");
       window.location.href = "../";
       // document.getElementById("namLS").style.display="none";
-      document.getElementById("InsertUser").innerHTML="Welcome Back <br> "+Email1+" was Login Successfully";
       // ...
     })
     .catch((error) => {
