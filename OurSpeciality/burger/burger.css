@@ -104,7 +104,8 @@ header {
     padding-right: 0.5rem;
     color: var(--red);
   }
-  header .navbar a {
+ 
+  .navbar a {
     font-size: 2rem;
     margin-left: 2rem;
     color: #fff;
@@ -116,28 +117,33 @@ header {
   }
   header .navbar a .fa-heart{
     position: absolute;
+    top: .8rem;
   }
   .fa-burger{
     color: white;
     position: absolute;
+    top: 0.9rem;
+    right: -2rem;
     font-size: 2rem;
-  }
+
+}
   
   header .navbar a .count{
     position: relative;
+    top: -1rem;
     bottom: 0;
+    left: 2.5rem;
     font-size: 1rem;
-    margin-left: 2.3rem;
     color: white;
     font-weight: 600;
-
   }
   header .navbar a .count1{
     position: relative;
     bottom: 0;
-    font-size: 1rem;
-    margin-left: 2.3rem;
+    left:3.8rem;
+    top: -.8rem;
     color: white;
+    font-size: 1rem;
     font-weight: 600;
   }
 

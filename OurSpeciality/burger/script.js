@@ -17,7 +17,18 @@ for(let i=0;i<btn.length;i++){
         console.log(countSpan1)
     })
 }
-// let currentHeart = hearts[i];
-// if(currentHeart){
-//     console.log(`Current Heart: ${currentHeart}`);
-// }
+
+// image selectorhere
+
+const boxcontainer = document.querySelector(".box-container")
+const btnn = document.querySelector(".btnn");
+const offcanvas =  document.getElementById("offcanvasDarkNavbar")
+
+btnn.addEventListener("click",()=>{
+    const image =  document.getElementsByClassName("image");
+    const clone = image.cloneNode(true);
+
+    const div = document.createElement('div')
+    div.appendChild(clone)
+    offcanvas.appendChild(div)
+})
