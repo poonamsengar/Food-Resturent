@@ -223,7 +223,12 @@ header .navbar a:hover {
   font-size: 2.5rem;
   color: #333;
 }
-
+.speciality .box-container .box .content h2 {
+  color: red;
+}
+.speciality .box-container .box .content span{
+  color: yellow;
+}
 .speciality .box-container .box .content p {
   font-size: 1.6rem;
   color: #666;
