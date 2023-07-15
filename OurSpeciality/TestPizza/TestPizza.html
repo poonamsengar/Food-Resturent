@@ -29,13 +29,16 @@
         <a href="#">
           <div class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
             aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            
             <i class="fa-solid fa-burger"></i><span class="count1"></span>
           </div>
           <div class="offcanvas offcanvas-end" id="offcanvasDarkNavbar"
             aria-labelledby="offcanvasDarkNavbarLabel">
+            <button id="closeleft">X</button>
             <div class="lefttMain">
                 <label for="" class="pleftt">User Feedback</label>
-                <input type="text" placeholder="enter your email">
+                <input id="inputFeedbackt"  type="text" placeholder="enter your email"/>
+                <button onclick="rightFeedback()">OK</button>
                 <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
