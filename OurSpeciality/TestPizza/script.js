@@ -8,18 +8,17 @@ for (let i = 0; i < hearts.length; i++) {
   });
 }
 // Order here logic
-var count1=1;
-const btn =  document.getElementsByClassName("btnn")
-for(let i=0;i<btn.length;i++){
-    btn[i].addEventListener("click",()=>{
-        const countSpan1 = document.querySelector(".count1");
-        countSpan1.innerHTML=count1++;
-        // console.log(countSpan1)
-    })
+var count1 = 1;
+const btn = document.getElementsByClassName("btnn");
+for (let i = 0; i < btn.length; i++) {
+  btn[i].addEventListener("click", () => {
+    const countSpan1 = document.querySelector(".count1");
+    countSpan1.innerHTML = count1++;
+    // console.log(countSpan1)
+  });
 }
 
 // image selectorhere
-
 
 const image1 = document.querySelector(".image1");
 const imgsrc1 = image1.src;
@@ -87,595 +86,572 @@ const btn20 = document.querySelector(".twenteen");
 const btn21 = document.querySelector(".twenteone");
 
 const box = document.querySelectorAll(".box");
-const offcanvasDarkNavbar = document.getElementById('offcanvasDarkNavbar')
+const offcanvasDarkNavbar = document.getElementById("offcanvasDarkNavbar");
 
 // btn1.forEach(Orderfun => {
-    btn1.addEventListener("click",()=>{
-        const NewDiv = document.createElement("div");
-        NewDiv.classList.add("leftMain")
-
-        const IMG = document.createElement("img");
-        IMG.classList.add("Leftimg")
-        IMG.setAttribute("src", imgsrc1);
-
-        const p = document.createElement('p')
-        p.classList.add('pleft')
-        p.textContent="Chees Burger dolor sit amet."
-
-        const BtnDiv = document.createElement("div");
-        BtnDiv.classList.add("btnleft")
-        const button = document.createElement('button')
-        button.classList.add("btnn")
-        button.textContent="Done✅"
-        BtnDiv.append(button)
-        NewDiv.append(IMG,p,BtnDiv);
-        
-        offcanvasDarkNavbar.append(NewDiv)
-        console.log("click",IMG);
-    // })
-
-});
-
-btn2.addEventListener("click",()=>{
+btn1.addEventListener("click", () => {
   const NewDiv = document.createElement("div");
-  NewDiv.classList.add("leftMain")
+  NewDiv.classList.add("leftMain");
 
   const IMG = document.createElement("img");
-  IMG.classList.add("Leftimg")
+  IMG.classList.add("Leftimg");
+  IMG.setAttribute("src", imgsrc1);
+
+  const p = document.createElement("p");
+  p.classList.add("pleft");
+  p.textContent = "Chees Burger dolor sit amet.";
+
+  const BtnDiv = document.createElement("div");
+  BtnDiv.classList.add("btnleft");
+  const button = document.createElement("button");
+  button.classList.add("btnn");
+  button.textContent = "Done✅";
+  BtnDiv.append(button);
+  NewDiv.append(IMG, p, BtnDiv);
+
+  offcanvasDarkNavbar.append(NewDiv);
+  console.log("click", IMG);
+  // })
+});
+
+btn2.addEventListener("click", () => {
+  const NewDiv = document.createElement("div");
+  NewDiv.classList.add("leftMain");
+
+  const IMG = document.createElement("img");
+  IMG.classList.add("Leftimg");
   IMG.setAttribute("src", imgsrc2);
 
-  const p = document.createElement('p')
-  p.classList.add('pleft')
-  p.textContent="Chees Burger dolor sit amet."
+  const p = document.createElement("p");
+  p.classList.add("pleft");
+  p.textContent = "Chees Burger dolor sit amet.";
 
   const BtnDiv = document.createElement("div");
-  BtnDiv.classList.add("btnleft")
-  const button = document.createElement('button')
-  button.classList.add("btnn")
-  button.textContent="Done✅"
-  BtnDiv.append(button)
-  NewDiv.append(IMG,p,BtnDiv);
-  
-  offcanvasDarkNavbar.append(NewDiv)
-  console.log("click",IMG);
-// })
+  BtnDiv.classList.add("btnleft");
+  const button = document.createElement("button");
+  button.classList.add("btnn");
+  button.textContent = "Done✅";
+  BtnDiv.append(button);
+  NewDiv.append(IMG, p, BtnDiv);
 
+  offcanvasDarkNavbar.append(NewDiv);
+  console.log("click", IMG);
+  // })
 });
-btn3.addEventListener("click",()=>{
+btn3.addEventListener("click", () => {
   const NewDiv = document.createElement("div");
-  NewDiv.classList.add("leftMain")
+  NewDiv.classList.add("leftMain");
 
   const IMG = document.createElement("img");
-  IMG.classList.add("Leftimg")
+  IMG.classList.add("Leftimg");
   IMG.setAttribute("src", imgsrc3);
 
-  const p = document.createElement('p')
-  p.classList.add('pleft')
-  p.textContent="Chees Burger dolor sit amet."
+  const p = document.createElement("p");
+  p.classList.add("pleft");
+  p.textContent = "Chees Burger dolor sit amet.";
 
   const BtnDiv = document.createElement("div");
-  BtnDiv.classList.add("btnleft")
-  const button = document.createElement('button')
-  button.classList.add("btnn")
-  button.textContent="Done✅"
-  BtnDiv.append(button)
-  NewDiv.append(IMG,p,BtnDiv);
-  
-  offcanvasDarkNavbar.append(NewDiv)
-  console.log("click",IMG);
-// })
+  BtnDiv.classList.add("btnleft");
+  const button = document.createElement("button");
+  button.classList.add("btnn");
+  button.textContent = "Done✅";
+  BtnDiv.append(button);
+  NewDiv.append(IMG, p, BtnDiv);
 
+  offcanvasDarkNavbar.append(NewDiv);
+  console.log("click", IMG);
+  // })
 });
-btn4.addEventListener("click",()=>{
+btn4.addEventListener("click", () => {
   const NewDiv = document.createElement("div");
-  NewDiv.classList.add("leftMain")
+  NewDiv.classList.add("leftMain");
 
   const IMG = document.createElement("img");
-  IMG.classList.add("Leftimg")
+  IMG.classList.add("Leftimg");
   IMG.setAttribute("src", imgsrc4);
 
-  const p = document.createElement('p')
-  p.classList.add('pleft')
-  p.textContent="Chees Burger dolor sit amet."
+  const p = document.createElement("p");
+  p.classList.add("pleft");
+  p.textContent = "Chees Burger dolor sit amet.";
 
   const BtnDiv = document.createElement("div");
-  BtnDiv.classList.add("btnleft")
-  const button = document.createElement('button')
-  button.classList.add("btnn")
-  button.textContent="Done✅"
-  BtnDiv.append(button)
-  NewDiv.append(IMG,p,BtnDiv);
-  
-  offcanvasDarkNavbar.append(NewDiv)
-  console.log("click",IMG);
-// })
+  BtnDiv.classList.add("btnleft");
+  const button = document.createElement("button");
+  button.classList.add("btnn");
+  button.textContent = "Done✅";
+  BtnDiv.append(button);
+  NewDiv.append(IMG, p, BtnDiv);
 
+  offcanvasDarkNavbar.append(NewDiv);
+  console.log("click", IMG);
+  // })
 });
-btn5.addEventListener("click",()=>{
+btn5.addEventListener("click", () => {
   const NewDiv = document.createElement("div");
-  NewDiv.classList.add("leftMain")
+  NewDiv.classList.add("leftMain");
 
   const IMG = document.createElement("img");
-  IMG.classList.add("Leftimg")
+  IMG.classList.add("Leftimg");
   IMG.setAttribute("src", imgsrc5);
 
-  const p = document.createElement('p')
-  p.classList.add('pleft')
-  p.textContent="Chees Burger dolor sit amet."
+  const p = document.createElement("p");
+  p.classList.add("pleft");
+  p.textContent = "Chees Burger dolor sit amet.";
 
   const BtnDiv = document.createElement("div");
-  BtnDiv.classList.add("btnleft")
-  const button = document.createElement('button')
-  button.classList.add("btnn")
-  button.textContent="Done✅"
-  BtnDiv.append(button)
-  NewDiv.append(IMG,p,BtnDiv);
-  
-  offcanvasDarkNavbar.append(NewDiv)
-  console.log("click",IMG);
-// })
+  BtnDiv.classList.add("btnleft");
+  const button = document.createElement("button");
+  button.classList.add("btnn");
+  button.textContent = "Done✅";
+  BtnDiv.append(button);
+  NewDiv.append(IMG, p, BtnDiv);
 
+  offcanvasDarkNavbar.append(NewDiv);
+  console.log("click", IMG);
+  // })
 });
-btn6.addEventListener("click",()=>{
+btn6.addEventListener("click", () => {
   const NewDiv = document.createElement("div");
-  NewDiv.classList.add("leftMain")
+  NewDiv.classList.add("leftMain");
 
   const IMG = document.createElement("img");
-  IMG.classList.add("Leftimg")
+  IMG.classList.add("Leftimg");
   IMG.setAttribute("src", imgsrc6);
 
-  const p = document.createElement('p')
-  p.classList.add('pleft')
-  p.textContent="Chees Burger dolor sit amet."
+  const p = document.createElement("p");
+  p.classList.add("pleft");
+  p.textContent = "Chees Burger dolor sit amet.";
 
   const BtnDiv = document.createElement("div");
-  BtnDiv.classList.add("btnleft")
-  const button = document.createElement('button')
-  button.classList.add("btnn")
-  button.textContent="Done✅"
-  BtnDiv.append(button)
-  NewDiv.append(IMG,p,BtnDiv);
-  
-  offcanvasDarkNavbar.append(NewDiv)
-  console.log("click",IMG);
-// })
+  BtnDiv.classList.add("btnleft");
+  const button = document.createElement("button");
+  button.classList.add("btnn");
+  button.textContent = "Done✅";
+  BtnDiv.append(button);
+  NewDiv.append(IMG, p, BtnDiv);
 
+  offcanvasDarkNavbar.append(NewDiv);
+  console.log("click", IMG);
+  // })
 });
-btn7.addEventListener("click",()=>{
+btn7.addEventListener("click", () => {
   const NewDiv = document.createElement("div");
-  NewDiv.classList.add("leftMain")
+  NewDiv.classList.add("leftMain");
 
   const IMG = document.createElement("img");
-  IMG.classList.add("Leftimg")
+  IMG.classList.add("Leftimg");
   IMG.setAttribute("src", imgsrc7);
 
-  const p = document.createElement('p')
-  p.classList.add('pleft')
-  p.textContent="Chees Burger dolor sit amet."
+  const p = document.createElement("p");
+  p.classList.add("pleft");
+  p.textContent = "Chees Burger dolor sit amet.";
 
   const BtnDiv = document.createElement("div");
-  BtnDiv.classList.add("btnleft")
-  const button = document.createElement('button')
-  button.classList.add("btnn")
-  button.textContent="Done✅"
-  BtnDiv.append(button)
-  NewDiv.append(IMG,p,BtnDiv);
-  
-  offcanvasDarkNavbar.append(NewDiv)
-  console.log("click",IMG);
-// })
+  BtnDiv.classList.add("btnleft");
+  const button = document.createElement("button");
+  button.classList.add("btnn");
+  button.textContent = "Done✅";
+  BtnDiv.append(button);
+  NewDiv.append(IMG, p, BtnDiv);
 
+  offcanvasDarkNavbar.append(NewDiv);
+  console.log("click", IMG);
+  // })
 });
-btn8.addEventListener("click",()=>{
+btn8.addEventListener("click", () => {
   const NewDiv = document.createElement("div");
-  NewDiv.classList.add("leftMain")
+  NewDiv.classList.add("leftMain");
 
   const IMG = document.createElement("img");
-  IMG.classList.add("Leftimg")
+  IMG.classList.add("Leftimg");
   IMG.setAttribute("src", imgsrc8);
 
-  const p = document.createElement('p')
-  p.classList.add('pleft')
-  p.textContent="Chees Burger dolor sit amet."
+  const p = document.createElement("p");
+  p.classList.add("pleft");
+  p.textContent = "Chees Burger dolor sit amet.";
 
   const BtnDiv = document.createElement("div");
-  BtnDiv.classList.add("btnleft")
-  const button = document.createElement('button')
-  button.classList.add("btnn")
-  button.textContent="Done✅"
-  BtnDiv.append(button)
-  NewDiv.append(IMG,p,BtnDiv);
-  
-  offcanvasDarkNavbar.append(NewDiv)
-  console.log("click",IMG);
-// })
+  BtnDiv.classList.add("btnleft");
+  const button = document.createElement("button");
+  button.classList.add("btnn");
+  button.textContent = "Done✅";
+  BtnDiv.append(button);
+  NewDiv.append(IMG, p, BtnDiv);
 
+  offcanvasDarkNavbar.append(NewDiv);
+  console.log("click", IMG);
+  // })
 });
-btn9.addEventListener("click",()=>{
+btn9.addEventListener("click", () => {
   const NewDiv = document.createElement("div");
-  NewDiv.classList.add("leftMain")
+  NewDiv.classList.add("leftMain");
 
   const IMG = document.createElement("img");
-  IMG.classList.add("Leftimg")
+  IMG.classList.add("Leftimg");
   IMG.setAttribute("src", imgsrc9);
 
-  const p = document.createElement('p')
-  p.classList.add('pleft')
-  p.textContent="Chees Burger dolor sit amet."
+  const p = document.createElement("p");
+  p.classList.add("pleft");
+  p.textContent = "Chees Burger dolor sit amet.";
 
   const BtnDiv = document.createElement("div");
-  BtnDiv.classList.add("btnleft")
-  const button = document.createElement('button')
-  button.classList.add("btnn")
-  button.textContent="Done✅"
-  BtnDiv.append(button)
-  NewDiv.append(IMG,p,BtnDiv);
-  
-  offcanvasDarkNavbar.append(NewDiv)
-  console.log("click",IMG);
-// })
+  BtnDiv.classList.add("btnleft");
+  const button = document.createElement("button");
+  button.classList.add("btnn");
+  button.textContent = "Done✅";
+  BtnDiv.append(button);
+  NewDiv.append(IMG, p, BtnDiv);
 
+  offcanvasDarkNavbar.append(NewDiv);
+  console.log("click", IMG);
+  // })
 });
-btn10.addEventListener("click",()=>{
+btn10.addEventListener("click", () => {
   const NewDiv = document.createElement("div");
-  NewDiv.classList.add("leftMain")
+  NewDiv.classList.add("leftMain");
 
   const IMG = document.createElement("img");
-  IMG.classList.add("Leftimg")
+  IMG.classList.add("Leftimg");
   IMG.setAttribute("src", imgsrc10);
 
-  const p = document.createElement('p')
-  p.classList.add('pleft')
-  p.textContent="Chees Burger dolor sit amet."
+  const p = document.createElement("p");
+  p.classList.add("pleft");
+  p.textContent = "Chees Burger dolor sit amet.";
 
   const BtnDiv = document.createElement("div");
-  BtnDiv.classList.add("btnleft")
-  const button = document.createElement('button')
-  button.classList.add("btnn")
-  button.textContent="Done✅"
-  BtnDiv.append(button)
-  NewDiv.append(IMG,p,BtnDiv);
-  
-  offcanvasDarkNavbar.append(NewDiv)
-  console.log("click",IMG);
-// })
+  BtnDiv.classList.add("btnleft");
+  const button = document.createElement("button");
+  button.classList.add("btnn");
+  button.textContent = "Done✅";
+  BtnDiv.append(button);
+  NewDiv.append(IMG, p, BtnDiv);
 
+  offcanvasDarkNavbar.append(NewDiv);
+  console.log("click", IMG);
+  // })
 });
-btn11.addEventListener("click",()=>{
+btn11.addEventListener("click", () => {
   const NewDiv = document.createElement("div");
-  NewDiv.classList.add("leftMain")
+  NewDiv.classList.add("leftMain");
 
   const IMG = document.createElement("img");
-  IMG.classList.add("Leftimg")
+  IMG.classList.add("Leftimg");
   IMG.setAttribute("src", imgsrc11);
 
-  const p = document.createElement('p')
-  p.classList.add('pleft')
-  p.textContent="Chees Burger dolor sit amet."
+  const p = document.createElement("p");
+  p.classList.add("pleft");
+  p.textContent = "Chees Burger dolor sit amet.";
 
   const BtnDiv = document.createElement("div");
-  BtnDiv.classList.add("btnleft")
-  const button = document.createElement('button')
-  button.classList.add("btnn")
-  button.textContent="Done✅"
-  BtnDiv.append(button)
-  NewDiv.append(IMG,p,BtnDiv);
-  
-  offcanvasDarkNavbar.append(NewDiv)
-  console.log("click",IMG);
-// })
+  BtnDiv.classList.add("btnleft");
+  const button = document.createElement("button");
+  button.classList.add("btnn");
+  button.textContent = "Done✅";
+  BtnDiv.append(button);
+  NewDiv.append(IMG, p, BtnDiv);
 
+  offcanvasDarkNavbar.append(NewDiv);
+  console.log("click", IMG);
+  // })
 });
-btn12.addEventListener("click",()=>{
+btn12.addEventListener("click", () => {
   const NewDiv = document.createElement("div");
-  NewDiv.classList.add("leftMain")
+  NewDiv.classList.add("leftMain");
 
   const IMG = document.createElement("img");
-  IMG.classList.add("Leftimg")
+  IMG.classList.add("Leftimg");
   IMG.setAttribute("src", imgsrc12);
 
-  const p = document.createElement('p')
-  p.classList.add('pleft')
-  p.textContent="Chees Burger dolor sit amet."
+  const p = document.createElement("p");
+  p.classList.add("pleft");
+  p.textContent = "Chees Burger dolor sit amet.";
 
   const BtnDiv = document.createElement("div");
-  BtnDiv.classList.add("btnleft")
-  const button = document.createElement('button')
-  button.classList.add("btnn")
-  button.textContent="Done✅"
-  BtnDiv.append(button)
-  NewDiv.append(IMG,p,BtnDiv);
-  
-  offcanvasDarkNavbar.append(NewDiv)
-  console.log("click",IMG);
-// })
+  BtnDiv.classList.add("btnleft");
+  const button = document.createElement("button");
+  button.classList.add("btnn");
+  button.textContent = "Done✅";
+  BtnDiv.append(button);
+  NewDiv.append(IMG, p, BtnDiv);
 
+  offcanvasDarkNavbar.append(NewDiv);
+  console.log("click", IMG);
+  // })
 });
-btn13.addEventListener("click",()=>{
+btn13.addEventListener("click", () => {
   const NewDiv = document.createElement("div");
-  NewDiv.classList.add("leftMain")
+  NewDiv.classList.add("leftMain");
 
   const IMG = document.createElement("img");
-  IMG.classList.add("Leftimg")
+  IMG.classList.add("Leftimg");
   IMG.setAttribute("src", imgsrc13);
 
-  const p = document.createElement('p')
-  p.classList.add('pleft')
-  p.textContent="Chees Burger dolor sit amet."
+  const p = document.createElement("p");
+  p.classList.add("pleft");
+  p.textContent = "Chees Burger dolor sit amet.";
 
   const BtnDiv = document.createElement("div");
-  BtnDiv.classList.add("btnleft")
-  const button = document.createElement('button')
-  button.classList.add("btnn")
-  button.textContent="Done✅"
-  BtnDiv.append(button)
-  NewDiv.append(IMG,p,BtnDiv);
-  
-  offcanvasDarkNavbar.append(NewDiv)
-  console.log("click",IMG);
-// })
+  BtnDiv.classList.add("btnleft");
+  const button = document.createElement("button");
+  button.classList.add("btnn");
+  button.textContent = "Done✅";
+  BtnDiv.append(button);
+  NewDiv.append(IMG, p, BtnDiv);
 
+  offcanvasDarkNavbar.append(NewDiv);
+  console.log("click", IMG);
+  // })
 });
-btn14.addEventListener("click",()=>{
+btn14.addEventListener("click", () => {
   const NewDiv = document.createElement("div");
-  NewDiv.classList.add("leftMain")
+  NewDiv.classList.add("leftMain");
 
   const IMG = document.createElement("img");
-  IMG.classList.add("Leftimg")
+  IMG.classList.add("Leftimg");
   IMG.setAttribute("src", imgsrc14);
 
-  const p = document.createElement('p')
-  p.classList.add('pleft')
-  p.textContent="Chees Burger dolor sit amet."
+  const p = document.createElement("p");
+  p.classList.add("pleft");
+  p.textContent = "Chees Burger dolor sit amet.";
 
   const BtnDiv = document.createElement("div");
-  BtnDiv.classList.add("btnleft")
-  const button = document.createElement('button')
-  button.classList.add("btnn")
-  button.textContent="Done✅"
-  BtnDiv.append(button)
-  NewDiv.append(IMG,p,BtnDiv);
-  
-  offcanvasDarkNavbar.append(NewDiv)
-  console.log("click",IMG);
-// })
+  BtnDiv.classList.add("btnleft");
+  const button = document.createElement("button");
+  button.classList.add("btnn");
+  button.textContent = "Done✅";
+  BtnDiv.append(button);
+  NewDiv.append(IMG, p, BtnDiv);
 
+  offcanvasDarkNavbar.append(NewDiv);
+  console.log("click", IMG);
+  // })
 });
-btn15.addEventListener("click",()=>{
+btn15.addEventListener("click", () => {
   const NewDiv = document.createElement("div");
-  NewDiv.classList.add("leftMain")
+  NewDiv.classList.add("leftMain");
 
   const IMG = document.createElement("img");
-  IMG.classList.add("Leftimg")
+  IMG.classList.add("Leftimg");
   IMG.setAttribute("src", imgsrc15);
 
-  const p = document.createElement('p')
-  p.classList.add('pleft')
-  p.textContent="Chees Burger dolor sit amet."
+  const p = document.createElement("p");
+  p.classList.add("pleft");
+  p.textContent = "Chees Burger dolor sit amet.";
 
   const BtnDiv = document.createElement("div");
-  BtnDiv.classList.add("btnleft")
-  const button = document.createElement('button')
-  button.classList.add("btnn")
-  button.textContent="Done✅"
-  BtnDiv.append(button)
-  NewDiv.append(IMG,p,BtnDiv);
-  
-  offcanvasDarkNavbar.append(NewDiv)
-  console.log("click",IMG);
-// })
+  BtnDiv.classList.add("btnleft");
+  const button = document.createElement("button");
+  button.classList.add("btnn");
+  button.textContent = "Done✅";
+  BtnDiv.append(button);
+  NewDiv.append(IMG, p, BtnDiv);
 
+  offcanvasDarkNavbar.append(NewDiv);
+  console.log("click", IMG);
+  // })
 });
 
-
-
-btn16.addEventListener("click",()=>{
+btn16.addEventListener("click", () => {
   const NewDiv = document.createElement("div");
-  NewDiv.classList.add("leftMain")
+  NewDiv.classList.add("leftMain");
 
   const IMG = document.createElement("img");
-  IMG.classList.add("Leftimg")
+  IMG.classList.add("Leftimg");
   IMG.setAttribute("src", imgsrc16);
 
-  const p = document.createElement('p')
-  p.classList.add('pleft')
-  p.textContent="Chees Burger dolor sit amet."
+  const p = document.createElement("p");
+  p.classList.add("pleft");
+  p.textContent = "Chees Burger dolor sit amet.";
 
   const BtnDiv = document.createElement("div");
-  BtnDiv.classList.add("btnleft")
-  const button = document.createElement('button')
-  button.classList.add("btnn")
-  button.textContent="Done✅"
-  BtnDiv.append(button)
-  NewDiv.append(IMG,p,BtnDiv);
-  
-  offcanvasDarkNavbar.append(NewDiv)
-  console.log("click",IMG);
-// })
+  BtnDiv.classList.add("btnleft");
+  const button = document.createElement("button");
+  button.classList.add("btnn");
+  button.textContent = "Done✅";
+  BtnDiv.append(button);
+  NewDiv.append(IMG, p, BtnDiv);
 
+  offcanvasDarkNavbar.append(NewDiv);
+  console.log("click", IMG);
+  // })
 });
-btn17.addEventListener("click",()=>{
+btn17.addEventListener("click", () => {
   const NewDiv = document.createElement("div");
-  NewDiv.classList.add("leftMain")
+  NewDiv.classList.add("leftMain");
 
   const IMG = document.createElement("img");
-  IMG.classList.add("Leftimg")
+  IMG.classList.add("Leftimg");
   IMG.setAttribute("src", imgsrc17);
 
-  const p = document.createElement('p')
-  p.classList.add('pleft')
-  p.textContent="Chees Burger dolor sit amet."
+  const p = document.createElement("p");
+  p.classList.add("pleft");
+  p.textContent = "Chees Burger dolor sit amet.";
 
   const BtnDiv = document.createElement("div");
-  BtnDiv.classList.add("btnleft")
-  const button = document.createElement('button')
-  button.classList.add("btnn")
-  button.textContent="Done✅"
-  BtnDiv.append(button)
-  NewDiv.append(IMG,p,BtnDiv);
-  
-  offcanvasDarkNavbar.append(NewDiv)
-  console.log("click",IMG);
-// })
+  BtnDiv.classList.add("btnleft");
+  const button = document.createElement("button");
+  button.classList.add("btnn");
+  button.textContent = "Done✅";
+  BtnDiv.append(button);
+  NewDiv.append(IMG, p, BtnDiv);
 
+  offcanvasDarkNavbar.append(NewDiv);
+  console.log("click", IMG);
+  // })
 });
-btn18.addEventListener("click",()=>{
+btn18.addEventListener("click", () => {
   const NewDiv = document.createElement("div");
-  NewDiv.classList.add("leftMain")
+  NewDiv.classList.add("leftMain");
 
   const IMG = document.createElement("img");
-  IMG.classList.add("Leftimg")
+  IMG.classList.add("Leftimg");
   IMG.setAttribute("src", imgsrc18);
 
-  const p = document.createElement('p')
-  p.classList.add('pleft')
-  p.textContent="Chees Burger dolor sit amet."
+  const p = document.createElement("p");
+  p.classList.add("pleft");
+  p.textContent = "Chees Burger dolor sit amet.";
 
   const BtnDiv = document.createElement("div");
-  BtnDiv.classList.add("btnleft")
-  const button = document.createElement('button')
-  button.classList.add("btnn")
-  button.textContent="Done✅"
-  BtnDiv.append(button)
-  NewDiv.append(IMG,p,BtnDiv);
-  
-  offcanvasDarkNavbar.append(NewDiv)
-  console.log("click",IMG);
-// })
+  BtnDiv.classList.add("btnleft");
+  const button = document.createElement("button");
+  button.classList.add("btnn");
+  button.textContent = "Done✅";
+  BtnDiv.append(button);
+  NewDiv.append(IMG, p, BtnDiv);
 
+  offcanvasDarkNavbar.append(NewDiv);
+  console.log("click", IMG);
+  // })
 });
 
-btn19.addEventListener("click",()=>{
+btn19.addEventListener("click", () => {
   const NewDiv = document.createElement("div");
-  NewDiv.classList.add("leftMain")
+  NewDiv.classList.add("leftMain");
 
   const IMG = document.createElement("img");
-  IMG.classList.add("Leftimg")
+  IMG.classList.add("Leftimg");
   IMG.setAttribute("src", imgsrc19);
 
-  const p = document.createElement('p')
-  p.classList.add('pleft')
-  p.textContent="Chees Burger dolor sit amet."
+  const p = document.createElement("p");
+  p.classList.add("pleft");
+  p.textContent = "Chees Burger dolor sit amet.";
 
   const BtnDiv = document.createElement("div");
-  BtnDiv.classList.add("btnleft")
-  const button = document.createElement('button')
-  button.classList.add("btnn")
-  button.textContent="Done✅"
-  BtnDiv.append(button)
-  NewDiv.append(IMG,p,BtnDiv);
-  
-  offcanvasDarkNavbar.append(NewDiv)
-  console.log("click",IMG);
-// })
+  BtnDiv.classList.add("btnleft");
+  const button = document.createElement("button");
+  button.classList.add("btnn");
+  button.textContent = "Done✅";
+  BtnDiv.append(button);
+  NewDiv.append(IMG, p, BtnDiv);
 
+  offcanvasDarkNavbar.append(NewDiv);
+  console.log("click", IMG);
+  // })
 });
 
-btn20.addEventListener("click",()=>{
+btn20.addEventListener("click", () => {
   const NewDiv = document.createElement("div");
-  NewDiv.classList.add("leftMain")
+  NewDiv.classList.add("leftMain");
 
   const IMG = document.createElement("img");
-  IMG.classList.add("Leftimg")
+  IMG.classList.add("Leftimg");
   IMG.setAttribute("src", imgsrc20);
 
-  const p = document.createElement('p')
-  p.classList.add('pleft')
-  p.textContent="Chees Burger dolor sit amet."
+  const p = document.createElement("p");
+  p.classList.add("pleft");
+  p.textContent = "Chees Burger dolor sit amet.";
 
   const BtnDiv = document.createElement("div");
-  BtnDiv.classList.add("btnleft")
-  const button = document.createElement('button')
-  button.classList.add("btnn")
-  button.textContent="Done✅"
-  BtnDiv.append(button)
-  NewDiv.append(IMG,p,BtnDiv);
-  
-  offcanvasDarkNavbar.append(NewDiv)
-  console.log("click",IMG);
-// })
+  BtnDiv.classList.add("btnleft");
+  const button = document.createElement("button");
+  button.classList.add("btnn");
+  button.textContent = "Done✅";
+  BtnDiv.append(button);
+  NewDiv.append(IMG, p, BtnDiv);
 
+  offcanvasDarkNavbar.append(NewDiv);
+  console.log("click", IMG);
+  // })
 });
-btn21.addEventListener("click",()=>{
+btn21.addEventListener("click", () => {
   const NewDiv = document.createElement("div");
-  NewDiv.classList.add("leftMain")
+  NewDiv.classList.add("leftMain");
 
   const IMG = document.createElement("img");
-  IMG.classList.add("Leftimg")
+  IMG.classList.add("Leftimg");
   IMG.setAttribute("src", imgsrc21);
 
-  const p = document.createElement('p')
-  p.classList.add('pleft')
-  p.textContent="Chees Burger dolor sit amet."
+  const p = document.createElement("p");
+  p.classList.add("pleft");
+  p.textContent = "Chees Burger dolor sit amet.";
 
   const BtnDiv = document.createElement("div");
-  BtnDiv.classList.add("btnleft")
-  const button = document.createElement('button')
-  button.classList.add("btnn")
-  button.textContent="Done✅"
-  BtnDiv.append(button)
-  NewDiv.append(IMG,p,BtnDiv);
-  
-  offcanvasDarkNavbar.append(NewDiv)
-  console.log("click",IMG);
-// })
+  BtnDiv.classList.add("btnleft");
+  const button = document.createElement("button");
+  button.classList.add("btnn");
+  button.textContent = "Done✅";
+  BtnDiv.append(button);
+  NewDiv.append(IMG, p, BtnDiv);
 
+  offcanvasDarkNavbar.append(NewDiv);
+  console.log("click", IMG);
+  // })
 });
 
-
-const lefttMain =  document.getElementById("inputFeedbackt")
-function rightFeedback(){
-  if(lefttMain.value==""){
-    alert(`please Give Feedback 🍽️`)
-  }else{
-  alert(`Thank you for your feedback! 🎊 ${lefttMain.value}`);
-  console.log(lefttMain.value);
+const lefttMain = document.getElementById("inputFeedbackt");
+function rightFeedback() {
+  if (lefttMain.value == "") {
+    alert(`please Give Feedback 🍽️`);
+  } else {
+    alert(`Thank you for your feedback! 🎊 ${lefttMain.value}`);
+    console.log(lefttMain.value);
   }
-
 }
 
 // crose left part
 
-
-const closeleft =  document.getElementById("closeleft")
-const offcanvasDarkNavbar1 =  document.getElementById('offcanvasDarkNavbar');
-const faburger = document.querySelector('.fa-burger')
-closeleft.addEventListener("click",()=>{
-  offcanvasDarkNavbar1.style.visibility="hidden"
-  offcanvasDarkNavbar1.style.transition=".2s left linear"
-
-})
-faburger.addEventListener("click",()=>{
-  offcanvasDarkNavbar1.style.visibility="visible"
-})
+const closeleft = document.getElementById("closeleft");
+const offcanvasDarkNavbar1 = document.getElementById("offcanvasDarkNavbar");
+const faburger = document.querySelector(".fa-burger");
+closeleft.addEventListener("click", () => {
+  offcanvasDarkNavbar1.style.visibility = "hidden";
+  offcanvasDarkNavbar1.style.transition = ".2s left linear";
+});
+faburger.addEventListener("click", () => {
+  offcanvasDarkNavbar1.style.visibility = "visible";
+});
 // ordeer
-document.getElementById("Order").addEventListener("submit", (e) => {
-  e.preventDefault();
-  const orderName = document.getElementById("orderName")
-  const orderEmail = document.getElementById("orderEmail")
-  const orderNum = document.getElementById("orderNum")
-  const foodname = document.getElementById("foodname")
-  const textArea = document.getElementById("textArea")
 
-  // const OrderPlacesNull = document.createElement("div");
-  // OrderPlacesNull.append(orderName,orderEmail,orderNum,foodname,textArea);
+const boxcontainer = document.querySelector(".box-container");
 
-  console.log(orderName.value);
-  
-  const rightCLick = document.getElementById("rightCLick");  
-  
-      if((orderName.value=="") && (orderEmail.value=="") && (orderNum.value=="") && (foodname.value=="") && (textArea.value=="")){
-        alert("please Insert Your Information");
-      }else{
-        rightCLick.style.display = "block";
-        document.getElementById("main").style.filter = "blur(6px)";
+  // console.log("clicked order");
+  document.getElementById("Order").addEventListener("submit", (e) => {
+    e.preventDefault();
+    const orderName = document.getElementById("orderName");
+    const orderEmail = document.getElementById("orderEmail");
+    const orderNum = document.getElementById("orderNum");
+    const foodname = document.getElementById("foodname");
+    const textArea = document.getElementById("textArea");
+    const rightCLick = document.getElementById("rightCLick");
 
-  
-        document.getElementById("croshOrder").addEventListener("click",()=>{
-          console.log("click");
-          rightCLick.style.display = "none";
-          document.getElementById("main").style.filter = "none";
-        })
 
+    if ((boxcontainer.valueOf =="")||(
+        orderName.value == "" &&
+        orderEmail.value == "" &&
+        orderNum.value == "" &&
+        foodname.value == "" &&
+        textArea.value == ""
+      )) {
+        alert("please select you desert, Insert Your Information");
       }
+    else {
+      rightCLick.style.display = "block";
+      document.getElementById("main").style.filter = "blur(6px)";
+
+      document.getElementById("croshOrder").addEventListener("click", () => {
+        console.log("click");
+        rightCLick.style.display = "none";
+        document.getElementById("main").style.filter = "none";
+      });
+    }
 });

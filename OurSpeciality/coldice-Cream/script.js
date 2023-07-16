@@ -666,7 +666,7 @@ document.getElementById("Order").addEventListener("submit", (e) => {
   const rightCLick = document.getElementById("rightCLick");  
   
       if((orderName.value=="") && (orderEmail.value=="") && (orderNum.value=="") && (foodname.value=="") && (textArea.value=="")){
-        alert("please Insert Your Information");
+        alert("Select your Deser and Insert Your Information");
       }else{
         rightCLick.style.display = "block";
         document.getElementById("main").style.filter = "blur(6px)";
